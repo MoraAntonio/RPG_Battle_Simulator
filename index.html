@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title>Coralia</title>
+        <link href="./Coralia.css" rel="stylesheet" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+     
+                 
+        
+        <div id="mainscreen">
+            <h1 id ="title">Coralia's Story</h1>      
+                  
+            <div id="mainmenu">
+                <div class ="select" id="CharacterSel">Characters</div>
+                
+                <div class ="select" id="BattleSel">Battle</div>
+                  </div>
+              </div> 
+                  
+            <div class="Return" id="Return">
+                   <p class="select">Menu</p>
+            </div>
+                   
+                    
+            <div class="grid" id="ChGrid">
+            
+            <div class="portrait" onclick=display_Stats(Characters.Aqua)>
+                <img class="card" src="./assets/images/Aqua.png">
+                <p id="1">Aqua</p>
+            </div>
+            <div class="portrait" onclick=display_Stats(Characters.Kyle)>
+                <img class="card" src="./assets/images/Kyle.png">
+                <p id="1">Kyle</p>
+            </div>
+            <div class="portrait" onclick=display_Stats(Characters.Roylan)>
+                <img class="card" src="./assets/images/Roylan.png">
+                <p>Roylan</p>
+            </div>
+            <div class="portrait" onclick=display_Stats(Characters.Kaigune)>
+                <img class="card" src="./assets/images/Kaigune.png">
+                <p>Kaigune</p>
+            </div>
+            <div class="portrait"  onclick=display_Stats(Characters.Husker)>
+                <img class="card" src="./assets/images/Husker.png" >
+                <p>Husker</p>
+            </div>
+            <div class="portrait" onclick=display_Stats(Characters.Gerald)>
+                <img class="card" src="./assets/images/Gerald.png" >
+                <p>Gerald</p>
+            </div>
+            <div class="portrait" onclick=display_Stats(Characters.Hans)>
+                <img class="card" src="./assets/images/Hans.png" >
+                <p>Hans</p>
+            </div>
+            <div class="portrait" onclick=display_Stats(Characters.Ziore)>
+                <img class="card" src="./assets/images/Ziore.png" >
+                <p>Ziore</p>
+            </div>
+            <div class="portrait"  onclick=display_Stats(Characters.Raiku)>
+                <img class="card" src="./assets/images/Raiku.png" >
+                <p>Raiku</p>
+            </div>
+            <div class="portrait"  onclick=display_Stats(Characters.Steve)>
+                <img class="card" src="./assets/images/Steve.png" >
+                <p>Steve</p>
+            </div>
+            <div class="portrait" onclick=display_Stats(Characters.Sally)>
+                <img class="card" src="./assets/images/Sally.png" >
+                <p>Sally</p>
+            </div>
+            <div class="portrait" onclick=display_Stats(Characters.Kraine)>
+                <img class="card" src="./assets/images/Kraine.png">
+                <p>Kraine</p>
+            </div>
+            <div class="portrait"  onclick=display_Stats(Characters.Regi)>
+                <img class="card" src="./assets/images/Regi.png" >
+                <p>Regi</p>
+            </div>
+            <div class="portrait" onclick=display_Stats(Characters.Rossie)>
+                <img class="card" src="./assets/images/Rossie.png" >
+                <p>Rossie</p>
+            </div>
+            <div class="portrait" onclick=display_Stats(Characters.Raymond)>
+                <img class="card" src="./assets/images/Raymond.png" >
+                <p>Raymond</p>
+            </div>
+            
+            </div>
+            
+            <div class="grid" id="ChGrid2">
+            
+            <div class="grid" id="Return2">
+            <p class="select">Return</p>
+            </div>
+            
+            <div class="portrait" onclick=setChar(Characters.Aqua)>
+                <img class="card" src="./assets/images/Aqua.png">
+                <p id="1">Aqua</p>
+            </div>
+            <div class="portrait" onclick=setChar(Characters.Kyle)>
+                <img class="card" src="./assets/images/Kyle.png">
+                <p id="1">Kyle</p>
+            </div>
+            <div class="portrait" onclick=setChar(Characters.Roylan)>
+                <img class="card" src="./assets/images/Roylan.png">
+                <p>Roylan</p>
+            </div>
+            <div class="portrait" onclick=setChar(Characters.Kaigune)>
+                <img class="card" src="./assets/images/Kaigune.png">
+                <p>Kaigune</p>
+            </div>
+            <div class="portrait"  onclick=setChar(Characters.Husker)>
+                <img class="card" src="./assets/images/Husker.png" >
+                <p>Husker</p>
+            </div>
+            <div class="portrait" onclick=setChar(Characters.Gerald)>
+                <img class="card" src="./assets/images/Gerald.png" >
+                <p>Gerald</p>
+            </div>
+            <div class="portrait" onclick=setChar(Characters.Hans)>
+                <img class="card" src="./assets/images/Hans.png" >
+                <p>Hans</p>
+            </div>
+            <div class="portrait" onclick=setChar(Characters.Ziore)>
+                <img class="card" src="./assets/images/Ziore.png" >
+                <p>Ziore</p>
+            </div>
+            <div class="portrait"  onclick=setChar(Characters.Raiku)>
+                <img class="card" src="./assets/images/Raiku.png" >
+                <p>Raiku</p>
+            </div>
+            <div class="portrait"  onclick=setChar(Characters.Steve)>
+                <img class="card" src="./assets/images/Steve.png" >
+                <p>Steve</p>
+            </div>
+            <div class="portrait" onclick=setChar(Characters.Sally)>
+                <img class="card" src="./assets/images/Sally.png" >
+                <p>Sally</p>
+            </div>
+            <div class="portrait" onclick=setChar(Characters.Kraine)>
+                <img class="card" src="./assets/images/Kraine.png">
+                <p>Kraine</p>
+            </div>
+            <div class="portrait"  onclick=setChar(Characters.Regi)>
+                <img class="card" src="./assets/images/Regi.png" >
+                <p>Regi</p>
+            </div>
+            <div class="portrait" onclick=setChar(Characters.Rossie)>
+                <img class="card" src="./assets/images/Rossie.png" >
+                <p>Rossie</p>
+            </div>
+            <div class="portrait" onclick=setChar(Characters.Raymond)>
+                <img class="card" src="./assets/images/Raymond.png" >
+                <p>Raymond</p>
+            </div>
+            
+            </div>
+            
+            <div id="statDisplay"></div>
+              
+            
+               
+         <div id="prep">
+               Choose the Fighters
+            <div class="charset" id="playercard" onclick=chPlayer()>You</div>
+            <div class="charset" id="rivalcard" onclick=chRival() >Rival</div>
+            
+            <p id="startp"></p>
+            <div id="start">
+               
+                <p class="select">Start Battle</p>
+            </div>
+         </div>
+              
+        <div id="battlescr">
+            <p id="btittle"></p>
+            
+            <div class="battlecard" id="playermenu">
+               <div class="charset2" id="playercard2"></div>
+               <div class="tagg" id="playertag">
+               <div class="hbar" id="pbar"><div class="cbar" id="pcbar"></div></div>
+               <br>
+               <div class="hptag" id="Playerhp"></div>
+               <div class="ptag" id="playername"></div>
+               <div class="ptag" id="playerlvl"></div>
+               </div>
+               <br>
+               <div id="pmenu">
+                   <div class="select" id="bAtk">Attack</div>
+                   <div class="select" id="bMagic">Magic</div>
+                   <div class="select" id="bItems">Items</div>
+                   <div class="select" id="Wait">Wait</div>
+               </div>
+               
+                <div id= "extrac"></div>
+               
+           </div>
+           
+           <div class="battlecard" id="rivalmenu">
+                <div class="charset2" id="rivalcard2"></div>
+                <div class="tagg" id="rivaltag">
+                <div class="hbar" id="rbar">
+                <div class="cbar" id="rcbar"></div></div> 
+                <br>
+                <div class="hptag" id="Rivalhp"></div>
+                <div class="rtag" id="rivalname"></div>
+                <div class="rtag" id="rivallvl"></div>
+                </div>
+                <br>
+            </div>
+            
+            <div id="battlelog"></div>
+            
+        </div>  
+        <div id="resultsc">
+            <p id="wint"></p>
+            <div class="charset2" id="wincard">
+            </div>
+            <p id="rdesc"></p>
+        </div>                   
+              
+               
+        <script src="./Coralia.js"></script>
+    </body>
+</html>
